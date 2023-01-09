@@ -1,8 +1,9 @@
 .title-services {
     text-align: center;
     font-size: 24px;
-    font-weight: 700;
-    margin: 0 0 48px 0;
+    font-weight: 700;   
+    margin-bottom: 48px;
+    color: #2F2F51;
 }
 
 h3 {
@@ -53,6 +54,7 @@ h3 {
 .serv-1 {
     background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-1.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: right;
 }  
 
@@ -66,12 +68,14 @@ h3 {
 .serv-3 {
     background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-3.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: right;
 }
 
 .serv-4 {     
     background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-4.svg);   
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: right;    
 } 
 
@@ -86,12 +90,32 @@ h3 {
  /* Добавить размеры и классы для каждого деск */
  
 .description {
-    height: 75px;
-    width: 270px;
+    /* height: 75px;
+    width: 270px; */
     position: absolute;
     font-size: 16px;
     top: 160px;    
     left: 55px;    
+}
+
+.desc-1 {
+    width: 293px;
+    height: 76px;
+}
+
+.desc-2 {
+    width: 303px;
+    height: 146px;
+}
+
+.desc-3 {
+    width: 258px;
+    height: 96px;
+}
+
+.desc-4 {
+    width: 323px;
+    height: 88px;
 }
 
 
