@@ -51,26 +51,26 @@ h3 {
     ;} 
 
 .serv-1 {
-    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-1.svg);
+    background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-1.svg);
     background-size: cover;
     background-position: right;
 }  
 
 .serv-2 {
-    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-2.svg);
+    background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-2.svg);
     background-size: 115%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .serv-3 {
-    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-3.svg);
+    background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-3.svg);
     background-size: cover;
     background-position: right;
 }
 
 .serv-4 {     
-    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-4.svg);   
+    background-image: linear-gradient(to left, transparent, white 50%), url(../images/services/back/b-4.svg);   
     background-size: cover;
     background-position: right;    
 } 
