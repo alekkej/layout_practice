@@ -1,0 +1,100 @@
+.title-services {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 48px 0;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #2F2F51;
+    position: absolute;
+    top: 67px;
+    left: 139px;
+}
+
+.title-1 {
+    width: 211px;
+    height: 56px;
+}
+
+.title-2 {
+    width: 254px;
+    height: 56px;
+}
+
+.title-3 {
+    width: 192px;
+    height: 56px;
+}
+
+.title-4 {
+    width: 299px;
+    height: 56px;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 10px;
+    
+}
+
+.services-list {
+    position: relative; 
+    width: 595px;
+    height: 286px;
+    border-radius: 3px;
+    ;} 
+
+.serv-1 {
+    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-1.svg);
+    background-size: cover;
+    background-position: right;
+}  
+
+.serv-2 {
+    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-2.svg);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.serv-3 {
+    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-3.svg);
+    background-size: cover;
+    background-position: right;
+}
+
+.serv-4 {     
+    background-image: linear-gradient(to left, transparent, white 50%), url(/images/services/back/b-4.svg);   
+    background-size: cover;
+    background-position: right;    
+} 
+
+.img-1, .img-2, .img-3, .img-4 {
+    position: absolute;
+    width: 69px;
+    height: 77px;
+    top: 55px;
+    left: 55px;    
+}
+
+ /* Добавить размеры и классы для каждого деск */
+ 
+.description {
+    height: 75px;
+    width: 270px;
+    position: absolute;
+    font-size: 16px;
+    top: 160px;    
+    left: 55px;    
+}
+
+
+
+
+
