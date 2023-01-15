@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Окна Хаус</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/about.css">
 </head>
 <body>
 
@@ -58,13 +60,73 @@
     </div>
 </header>
 
-<section>
-    <div class="form">
-        <div class="form-bg">
+<section class="form-bg">
+    <div class="form-block">
+        <div class="form-box-text">
+            <p class="form-name">Окна Хаус -</р>
+            <h1 class="form-caption"><p>Профессиональный подход</p> <p>к остеклению</p></h1>
+            <ul class="form-text">
+                <li class="form-pic-1"> 
+                    <div class="form-text-1">
+                        <p>Современные окна</p>
+                        <p>и балконные конструкции</p> 
+                        <p>по доступным ценам</p>
+                    </div>
+                </li>
+                <li class="form-pic-2">
+                    <div class="form-text-2">
+                        <p>Квалифицированный</p>
+                        <p>подход к решению задач</p>
+                        <p>любой сложности</p>
+                    </div>
+                </li>
+                <li class="form-pic-3">
+                    <div class="form-text-3">
+                        <p>Гарантия </p>
+                        <p>высочайшего качества </p>
+                        <p>нашей продукции</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="form-box-order">
+            <h5 class="title-order">
+                Вызвать замерщика на дом
+            </h5>
+            <ul class="user-order">
+                <li>
+                    <label for="user-name"></label>
+                    <input type="text" id="user-name" placeholder="Представьтесь, пожалуйста" class="input-text">
+                </li>
+                <li>
+                    <label for="user-phone"></label>
+                    <input type="text" id="user-phone" placeholder="Номер телефона" class="input-text">
+                </li>
+                <li>
+                    <label for="user-email"></label>
+                    <input type="text" id="user-email" placeholder="E-mail" class="input-text">
+                </li>
+                <li>                    
+                    <label class="privacy-policy">
+                        <input type="checkbox" class="input-checkbox">
+                            <div class="privacy-policy-agree"><p>Согласен на обработку персональных данных</p>
+                                <p>в соответствии с <a href="" class="privacy-policy-link">политикой конфиденциальности</a></p>
+                            </div>                        
+                    </label>                    
+                </li>                
+            </ul>
+            <div class="button-form-order">
+                <button class="order-bn">Отправить заявку</button>
+            </div>
+
+            <div class=".img-box-roulette">
+                <div class="img-roulette">
+                    <img src="/images/form/form-roulette.svg" alt="Рулетка">
+                </div>
+            </div> 
 
         </div>
     </div>
-        
 </section>
 
 <section>
@@ -130,6 +192,96 @@
 
     
 </section> 
+
+<section class="about-company conteiner">
+
+    <div class="about-company__title">
+        О компании
+    </div>
+
+    <div class="about-company__buttons-box">
+        <button class="about-company__button about-company--active">
+            Описание
+        </button>
+        <button class="about-company__button" >
+            Как мы работаем
+        </button>
+        <button class="about-company__button">
+            Отзывы
+        </button>
+        <button class="about-company__button">
+            Сертификаты
+        </button>
+    </div>
+
+    <div class="about-company__description-box">
+        <div class="about-company__description">
+            <div class="about-company__description_logo">
+                <img src="/images/about/logo.svg" alt="Логотип" srcset="">
+            </div>
+            <div class="about-company__description_text">
+                <p>Мы помогаем клиентам подбирать решения, учитывая пожежелания к характеристикам окна и его стоимости. Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.</p>
+            </div>
+        </div>
+        <div class="about-company__cover">
+            <img src="/images/about/cover.svg" alt="Обложка" srcset="">
+        </div>
+    </div>
+
+    <div class="about-company__list-box">
+        <ul class="about-company__list">
+            <li class="about-company__box about-company__box-pro about-company__box--margin" >
+                <sapn class="about__title about-text--padding">профессионализм</sapn>
+                <p class="about-text"> 
+                    <p class="about-text--padding">Бригада профессиональных</p>
+                    <p class="about-text--padding">мастеров по монтажу</p> 
+                    <p class="about-text--padding">и обслуживанию</p>
+                </p>
+            </li>
+            <li class="about-company__box about-company__box-pricing about-company__box--margin">
+                <sapn class="about__title about-text--padding about-text--padding2">Ценообразование</sapn>
+                <p class="about-text">
+                    <p class="about-text--padding about-text--padding2">Лучшие цены на рынке</p> 
+                    <p class="about-text--padding about-text--padding2">пластиковых окон</p>
+                </p>
+            </li>
+            <li class="about-company__box about-company__box-mobility about-company__box--margin">
+                <sapn class="about__title about-text--padding">Мобильность</sapn>
+                <p class="about-text">
+                    <p class="about-text--padding"> Заключение договора</p> 
+                    <p class="about-text--padding">на дому</p>
+                </p>
+            </li>
+            <li class="about-company__box about-company__box-loyalty about-company__box--margin">
+                <sapn class="about__title about-text--padding">Лояльность</sapn>
+                <p class="about-text">
+                    <p class="about-text--padding">99% клиентов рекомендуют</p> 
+                    <p class="about-text--padding">нас своим друзьям</p>
+                </p>
+            </li>
+            <li class="about-company__box about-company__box-speed">
+                <sapn class="about__title about-text--padding">Скорость</sapn>
+                <p class="about-text">
+                    <p class="about-text--padding">Короткие сроки</p> 
+                    <p class="about-text--padding">установки изделий</p>
+                </p>
+            </li>
+            <li class="about-company__box about-company__box-quality">
+                <sapn class="about__title about-text--padding">Служба качества</sapn>
+                <p class="about-text">                    
+                    <p class="about-text--padding">Безупречное качество</p>
+                    <p class="about-text--padding">и контроль изделий ПВХ</p>
+                </p>
+            </li>
+        </ul>
+        <div class="about-company__button-box">
+            <div class="about-company__button">
+                <button class="about-button"> <img src="/images/header/zayavka-na-zamer.svg" alt="Замер" class="about-button__img">Оформить заявку на замер</button>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 </body>
 </html>
