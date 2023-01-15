@@ -48,7 +48,7 @@
 }
 
 .form-pic-1 {
-    background: url(./images/form/form-pic-1.svg);
+    background: url(../images/form/form-pic-1.svg);
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-right: 40px;
@@ -57,14 +57,14 @@
 }
 
 .form-pic-2 {
-    background: url(./images/form/form-pic-2.svg);
+    background: url(../images/form/form-pic-2.svg);
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-right: 40px;   
 }
 
 .form-pic-3 {
-    background: url(./images/form/form-pic-3.svg);
+    background: url(../images/form/form-pic-3.svg);
     background-repeat: no-repeat;
     padding-top: 100px;      
 }
