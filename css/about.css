@@ -133,27 +133,27 @@
 }
 
 .about-company__box-pro {
-    background-image: url(/images/about/1-icon.svg);
+    background-image: url(./images/about/1-icon.svg);
 }
 
 .about-company__box-pricing {
-    background-image: url(/images/about/2-icon.svg);
+    background-image: url(./images/about/2-icon.svg);
 }
 
 .about-company__box-mobility {
-    background-image: url(/images/about/3-icon.svg);
+    background-image: url(./images/about/3-icon.svg);
 }
 
 .about-company__box-loyalty {
-    background-image: url(/images/about/4-icon.svg);
+    background-image: url(./images/about/4-icon.svg);
 }
 
 .about-company__box-speed {
-    background-image: url(/images/about/5-icon.svg);
+    background-image: url(./images/about/5-icon.svg);
 }
 
 .about-company__box-quality {
-    background-image: url(/images/about/6-icon.svg);
+    background-image: url(./images/about/6-icon.svg);
 }
 
 .about-company__button {
