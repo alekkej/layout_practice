@@ -1,0 +1,26 @@
+.portfolio-wrapper {
+    background-color: white;
+    padding: 48px 88px;
+}
+
+.portfolio__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F2F51;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 992px) { 
+    .hidden-img {
+        display: none;
+    }
+}
