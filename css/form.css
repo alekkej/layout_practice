@@ -1,13 +1,21 @@
 .form-bg {
     /* width: 1920px;
-    height: 562px;
-    background: url(/images/form/form-bg.svg) repeat-y,
-    url(/images/form/form-bg-2.svg) repeat-y 100% 0, url(/images/form/form-bg-color.svg);
+    height: 562px;  */
+    background: url(../images/form/form-bg.svg) repeat-y,
+    url(../images/form/form-bg-2.svg) repeat-y 100% 0, url(../images/form/form-bg-color.svg);
     background-blend-mode: multiply;
-    margin: 0 auto 68px auto; */
-    background: black;
-    margin-bottom: 84px;
+    margin: 0 auto 68px auto;    
+    margin-bottom: 84px;    
 }
+
+/* .form-bg { 
+    background-image: url(../images/form/form-bg.svg), url(../images/form/form-bg-2.svg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 562px;
+    margin: 0 auto;
+} */
 
 .form-block {
     width: 1200px;
@@ -98,6 +106,7 @@
     padding-top: 43px;
     padding-right: 40px;
     padding-left: 40px;
+    display: block;
     
 }
 
@@ -167,5 +176,11 @@
 
 .user-order {
     
+}
+
+@media  (max-width: 992px) {
+    .form-box-order {
+    display: none;        
+    }
 }
 

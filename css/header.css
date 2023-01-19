@@ -1,18 +1,21 @@
-header {
+.header {
     position: sticky;
     top: 0px;
     background-color: white;
-    z-index: 10;
+    z-index: 10;     
 }
 
 .header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 17px 0;
-    /* flex-wrap: wrap; */
-
+    padding: 17px 55px;        
 }
+
+.header__menu {
+    display: none;
+}
+
 .list {
     display: flex;
     gap:0 25px ;
@@ -51,4 +54,23 @@ header {
 .img {
     margin-right: 12px;
 }
+
+.header-wrapper__menu {
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width: 992px) {
+    .list-item {
+        display: none;}
+
+        .header__menu {
+            display: block;
+        }
+
+        .conteiner {
+            width: 900px ;
+        }
+}
+
 

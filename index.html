@@ -12,12 +12,18 @@
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
 <header class="header">
-    <div class="conteiner header-wrapper">
-        <img src="./images/header/icon.svg" alt="Логотип">
+    <div class="conteiner">
+    <div class="header-wrapper">
+       <div class="header-wrapper__menu">
+            <img src="./images/header/burger.svg" alt="Меню" srcset="" class="header__menu">
+            <img src="./images/header/icon.svg" alt="Логотип" class="header__logo">
+        </div>
 
         <nav>
             <ul class="list">
@@ -58,10 +64,11 @@
             </button>
         </div>
     </div>
+</div>
 </header>
 
 <section class="form-bg">
-    <div class="form-block">
+    <div class="form-block conteiner">
         <div class="form-box-text">
             <p class="form-name">Окна Хаус -</р>
             <h1 class="form-caption"><p>Профессиональный подход</p> <p>к остеклению</p></h1>
@@ -129,9 +136,12 @@
     </div>
 </section>
 
-<section>
-    <h2 class="title-services">Наши услуги</h2>
-    <div class="conteiner services-wrapper">
+<section> 
+    <div class="conteiner">
+        <h2 class="title-services">
+            Наши услуги
+        </h2>      
+    <div class="services-wrapper">       
         <div class="services-list serv-1">
             <div class="background bg-1"></div>
 
@@ -190,7 +200,7 @@
         </div>
     </div>
 
-    
+    </div> 
 </section> 
 
 <section class="about-company conteiner">
@@ -282,6 +292,46 @@
     </div>
 
 </section>
+
+<section class="portfolio">
+    <div class="portfolio-wrapper conteiner">
+        <h2 class="portfolio__title">
+            Портфолио
+        </h2>
+        <div class="portfolio__box">
+            <div class="img__portfolio ">
+                <img src="./images/portfolio/img-1.svg" alt="Работа-1" srcset="">
+            </div>
+            <div class="img__portfolio ">
+                <img src="./images/portfolio/img-2.svg" alt="Работа-2" srcset="">
+            </div>
+            <div class="img__portfolio ">
+                <img src="./images/portfolio/img-3.svg" alt="Работа-3" srcset="">
+            </div>
+            <div class="img__portfolio hidden-img">
+                <img src="./images/portfolio/img-4.svg " alt="Работа-4" srcset="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="conteiner footer-wrapper">
+        <div class="footer__company-box">
+            <div class="footer__company-logo">
+                <img src="./images/footer/footer__logo.svg" alt="Логотип" srcset="">
+            </div>
+            <div class="footer__company-name">
+                <p>© ООО “Окна Хаус”, 2011 - 2022</p>
+            </div>
+        </div>
+        <div class="footer__links">
+            <p>Политика кофиденциальности</p>
+            <p>Пользовательское соглашение</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
