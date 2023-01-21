@@ -1,21 +1,9 @@
 .form-bg {
-    /* width: 1920px;
-    height: 562px;  */
-    background: url(../images/form/form-bg.svg) repeat-y,
-    url(../images/form/form-bg-2.svg) repeat-y 100% 0, url(../images/form/form-bg-color.svg);
-    background-blend-mode: multiply;
-    margin: 0 auto 68px auto;    
-    margin-bottom: 84px;    
-}
-
-/* .form-bg { 
-    background-image: url(../images/form/form-bg.svg), url(../images/form/form-bg-2.svg);
-    background-position: left, right;
+    background-image: url(/images/form/form-bg-group.svg);
     background-repeat: no-repeat;
-    width: 1920px;
-    height: 562px;
-    margin: 0 auto;
-} */
+    background-position: center;
+    margin-bottom: 84px; 
+}
 
 .form-block {
     width: 1200px;
