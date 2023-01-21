@@ -47,6 +47,7 @@
 .about-company__description {
     padding: 46px 50px;
     line-height: 22px;
+    width: 600px;
 }
 
 .about-company__description_text {
@@ -147,4 +148,28 @@
 
 .about-button__img {
     margin-right: 24px;
+}
+
+.about-company__cover {
+    width: 600px;
+    background-image: url(../images/about/cover.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+@media  (max-width: 992px) {
+    .about-company__description-box {
+        width: 900px;
+    }
+    .about-company__description_text {
+        padding: 40px;
+    }
+    .about-company__description {
+        width: 450px;
+    }
+    .about-company__cover {
+        width: 450px;
+        background-size: 135%;
+    }
 }
