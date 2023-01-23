@@ -22,3 +22,7 @@ footer {
     gap: 15px; 
     align-items: center;
 }
+
+.footer__links:hover {
+    cursor: pointer;  
+}

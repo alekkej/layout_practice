@@ -11,3 +11,10 @@ body {
     background-color: #F2F2F2;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 992px) {
+    .conteiner {
+        width: 900px;
+        margin: 0 auto;
+    } 
+}
