@@ -130,6 +130,11 @@
     /* gap: 0 14px;     */
 }
 
+.company__button {
+    display: flex;
+    justify-content: center;
+}
+
 .about-button {
     display: flex;
     align-items: center;
@@ -172,4 +177,15 @@
         width: 450px;
         background-size: 135%;
     }
+}
+
+.about-company__button:hover {
+    background-color: #EF7F04;
+    cursor: pointer;
+    color: white;
+}
+
+.about-button:hover {
+    cursor: pointer;
+    opacity: 85%;
 }

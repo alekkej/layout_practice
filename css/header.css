@@ -73,4 +73,16 @@
         }
 }
 
+.list-item {
+    position: relative;
+}
+.link:hover {
+    color: #EF7F04;
+}
+
+.btn-item:hover {
+    opacity: 85%;
+    cursor: pointer;
+}
+
 

@@ -2,7 +2,7 @@
     background-image: url(../images/form/form-bg-group.svg);
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 84px; 
+    margin-bottom: 84px;
 }
 
 .form-block {
@@ -49,26 +49,26 @@
     padding-top: 100px;
     padding-right: 40px;
     margin-left: -20px;
-    
+
 }
 
 .form-pic-2 {
     background: url(../images/form/form-pic-2.svg);
     background-repeat: no-repeat;
     padding-top: 100px;
-    padding-right: 40px;   
+    padding-right: 40px;
 }
 
 .form-pic-3 {
     background: url(../images/form/form-pic-3.svg);
     background-repeat: no-repeat;
-    padding-top: 100px;      
+    padding-top: 100px;
 }
 
 .form-text-1 {
     width: 176px;
     margin-left: 20px;
-    
+
 
 }
 
@@ -95,7 +95,7 @@
     padding-right: 40px;
     padding-left: 40px;
     display: block;
-    
+
 }
 
 .title-order {
@@ -111,27 +111,27 @@
     border: 0;
     border-radius: 3px;
     width: 322px;
-    height: 40px;    
+    height: 40px;
     margin-bottom: 15px;
-    padding: 12px 18px;   
+    padding: 12px 18px;
 }
 
-.input-checkbox {
+/* .input-checkbox {
     background-color: #E2E2E2;    
     border: 0;
     border-radius: 3px;
     width: 25px;
     height: 25px;
 
-}
+} */
 
-.privacy-policy {
+/* .privacy-policy {
     font-weight: 400;
     font-size: 12px;
     display: flex;
     align-items: center;
     gap: 8px;
-}
+} */
 
 .privacy-policy-link {
     text-decoration: none;
@@ -148,7 +148,7 @@
     font-weight: 700;
     font-size: 14px;
     margin-top: 15px;
-        
+
 }
 
 .button-form-order {
@@ -162,13 +162,61 @@
     bottom: 15px;
 }
 
-.user-order {
-    
+.user-order {}
+
+.order-bn:hover {
+    opacity: 85%;
+    cursor: pointer;
 }
 
-@media  (max-width: 992px) {
+
+@media (max-width: 992px) {
     .form-box-order {
-    display: none;        
+        display: none;
     }
 }
 
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-group label {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    cursor: pointer;       
+} 
+
+.form-group label:before {
+    content: '';
+    background-color: #E2E2E2;
+    border-radius: 3px;
+    padding: 12.5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.form-group input:checked+label:after {
+    content: url(../images/form/check.svg);
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 5.5px;
+    width: 0px;
+    height: 0px;
+}
